@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit Contribution</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="sidebar">
+          <div class="icon-box">❤</div>
+          <h1>Support a Mission</h1>
+          <p>
+            Your contribution helps us continue our mission. Please fill out the
+            form to submit your details and receipt proof.
+          </p>
+          <!-- <div class="security-tag"><span>✓</span> Secure SSL Processing</div> -->
+        </div>
+        <div class="form-content">
+          <form action="#" method="POST">
+            <div class="input-group">
+              <label>Full Name</label>
+              <input type="text" placeholder="John Doe" required />
+            </div>
+            <div class="input-group">
+              <label>Email Address</label>
+              <input type="email" placeholder="john@example.com" required />
+            </div>
+            <div class="row">
+              <div class="input-group">
+                <label>Amount</label>
+                <input type="number" placeholder="0.00" required />
+              </div>
+              <div class="input-group">
+                <label>Target Cause</label>
+                <select>
+                  <option>Nepa</option>
+                  <option>Shopping</option>
+                  <option>Toilet</option>
+                  <option>Scholarship Fund</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Receipt Proof (PDF)</label>
+              <div class="file-upload">
+                <input type="file" accept=".pdf" id="receipt" />
+                <div class="file-dummy">
+                  <span class="file-icon">📄</span>
+                  <span class="file-text">Click to upload PDF</span>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn-submit">
+              POST CONTRIBUTION →
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

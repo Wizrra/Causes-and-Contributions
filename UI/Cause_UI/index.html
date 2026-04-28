@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New Cause</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="sidebar">
+          <div class="icon-box">✚</div>
+          <h1>Expand the Impact</h1>
+          <p>
+            Define a new area of need. Provide a clear title and description to
+            help donors understand the impact of their support.
+          </p>
+        </div>
+        <div class="form-content">
+          <form action="#" method="POST">
+            <div class="input-group">
+              <label>Cause Title</label>
+              <input
+                type="text"
+                placeholder="e.g., Clean Water Project"
+                required
+              />
+            </div>
+            <div class="input-group">
+              <label>Full Description</label>
+              <textarea
+                rows="5"
+                placeholder="Explain the project" Explain the project details...
+                required
+              ></textarea>
+            </div>
+            <div class="input-group">
+              <label>Cover Image (URL or Upload)</label>
+              <div class="file-upload">
+                <!-- <input type="file" accept="image/*" /> -->
+                 <input type="text">
+                <div class="file-dummy">
+                  <span class="file-icon">🖼</span>
+                  <span class="file-text">Click to upload cover photo</span>
+                  <span class="file-subtext">JPG, PNG or WebP</span>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn-submit">CREATE NEW CAUSE →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
