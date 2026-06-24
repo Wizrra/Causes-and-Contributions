@@ -1,0 +1,8 @@
+[build]
+  # Tell Netlify where your frontend folder is
+  publish = "UI/Cause_UI"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
